@@ -1,1 +1,1 @@
-web: ./render_build.sh
+web: python manage.py migrate && gunicorn resume_parser.wsgi
