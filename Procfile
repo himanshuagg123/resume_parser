@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn resume_parser.wsgi
+web: python manage.py migrate --noinput && gunicorn resume_parser.wsgi
